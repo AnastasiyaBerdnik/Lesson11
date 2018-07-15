@@ -2,8 +2,6 @@ package anastasiya.lesson10.home.task;
 
 import java.util.Comparator;
 
-import anastasiya.lesson10.home.task.Book;
-
 public class CompareByYearAndPrice implements Comparator <Book>{
 	
 	public int compare(Book first, Book second) {
